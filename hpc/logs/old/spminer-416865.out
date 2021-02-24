@@ -1,0 +1,17 @@
+Now you should run one of the following depending on your shell
+source /share/apps/python/anaconda3.2019.3/etc/profile.d/conda.sh
+source /share/apps/python/anaconda3.2019.3/etc/profile.d/conda.csh
+CUDA_VISIBLE_DEVICES: 
+Running SP Miner on dataset=example
+Tue Feb 23 16:53:39 PST 2021
+Going to REPO_DIR=/people/hamc649/neural-subgraph-learning-GNN
+Traceback (most recent call last):
+  File "/share/apps/python/anaconda3.2019.3/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/share/apps/python/anaconda3.2019.3/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/qfs/people/hamc649/neural-subgraph-learning-GNN/subgraph_matching/train.py", line 17, in <module>
+    from deepsnap.batch import Batch
+ModuleNotFoundError: No module named 'deepsnap'
+Finished
+Tue Feb 23 16:53:39 PST 2021
