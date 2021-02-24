@@ -1,0 +1,3 @@
+conda create -n spminer python=3.6
+conda install --name spminer --file spec-file.txt
+pip install -r colby.requirements.txt
